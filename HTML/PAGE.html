@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Buy It | Toy Player 玩具模人</title>
+  <link rel="stylesheet" href="../CSS/page.css">
+  <link rel="stylesheet" href="../CSS/rwd_page.css">
+  <link rel="stylesheet" href="../CSS/swiper.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+  <link rel="shortcut icon" type="image/png" href="../images/LOGO/LOGO4.png">
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+</head>
+
+<body>
+<!-----------------------------Header------------------------------------->
+<div class="wrapper">
+  <div class="scroll-to-top" id="scrollToTopBtn" title="回到頂部">^</div>
+  <header>
+    <div class="top">
+      <div class="logo">
+        <a href="../HTML/INDEX.html"><img src="../images/LOGO/logo.png" alt="LOGO"></a>
+      </div>
+      <div class="bar1">
+        <ul>
+          <li>
+          <input class="search" type="search" placeholder="  請輸入關鍵字" name="q" id="search" autocomplete="off
+            "><!--輸入標籤-->
+          </li>
+        </ul>
+        <ul>
+          <!-- <li><a href="#">會員登入</a></li> -->
+          <li>
+            <a href="#"></a><img src="../images/icon/Header/people-1.png" alt="">
+          </li>
+        </ul>
+        <ul>
+          <!-- <li><a href="#">購物車</a></li> -->
+          <li>
+            <a href="#"></a><img src="../images/icon/Header/car-1.png" alt="">
+          </li>
+        </ul>
+      </div>
+    </div>
+  
+  </header>
+
+</div>
+<!-----------------------------nav 導覽列  ------------------------------->
+<nav>
+  <div class="rwd">
+    <ul>
+      <li class="fafa">
+        <!-- <i class="fa fa-bars" aria-hidden="true"></i> -->
+         <div class='toggle'>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      </li>
+     
+      <li class="sear2">
+        <a href="#"><img src="../images/rwd/nav/search.png" alt=""></a>
+      </li>
+      <li>
+        <a href="#"><img src="../images/rwd/nav/people.png" alt="">
+        </li></a>
+      <li>
+        <a href="#"><img src="../images/rwd/nav/car.png" alt=""></a>
+      </li>
+    </ul>
+  </div>
+
+  <div class="rwd-item">
+    <ul class="r-item">
+      <li><a href="../HTML/INDEX.html">首頁 INDEX </a></li>
+      <li><a href="../HTML/NEWS.html">最新消息 NEWS </a></li>
+      <li><a href="#" id="right">
+        <p>主要商品 PRODUCT </p>
+        <span class="right"> 〉</span>
+      </a>
+      
+        <ul class="r-item2">
+          <div class="r-header">
+            <p>〈 Back</p>
+            <p>主要商品</p>
+          </div>
+          
+            <a href="../HTML/PRODUCT.html">
+              <img src="../images/icon/nav/Gundam2.png" alt="">
+              <p class="aaaa" id="p">鋼彈模型</p>
+              </a>
+            <a href="../HTML/PRODUCT.html">
+              <img src="../images/icon/nav/KITIBUKYA.png" alt="">
+              <p id="p">壽屋模型</p>
+                </a>
+            <a href="../HTML/PRODUCT.html">
+              <img src="../images/icon/nav/BANDAI.png" alt="">
+              <p id="p">萬代組裝模型</p>
+                </a>
+            <a href="../HTML/PRODUCT.html">
+              <img src="../images/icon/nav/HOT.png" alt="">
+              <p id="p">熱門作品相關</p>
+                </a>
+            <a href="../HTML/PRODUCT.html">
+              <img src="../images/icon/nav/EGG2.png" alt="">
+              <p id="p">景品/盒玩/扭蛋</p>
+                </a>
+            <a href="../HTML/PRODUCT.html">
+              <img src="../images/icon/nav/TAMASHII2.png" alt="">
+              <p id="p">TAMASHII 魂限</p>
+                </a>
+            <a href="../HTML/PRODUCT.html">
+              <img src="../images/icon/nav/TAMIYA.png" alt="">
+              <p id="p">TAMIYA 田宮模型</p>
+                </a>
+            <a href="../HTML/PRODUCT.html">
+              <img src="../images/icon/nav/BBOX2.png" alt="">
+              <p id="p">Blind Box 盲盒</p>
+                </a>
+        </ul>
+      </li>
+      <li><a href="../HTML/ABOUT ME.html">關於我 ABOUT</a></li>
+      <li><a href="../HTML/FAQ.html">常見問題 FAQ </a></li>
+    </ul>
+  </div>
+
+  <div class="sear">
+    <input class="search" type="search" placeholder="  請輸入關鍵字" name="q" id="search" autocomplete="off">
+    <!--輸入標籤-->
+  </div>
+  
+
+  <ul id="web">
+    <li><a href="../HTML/INDEX.html">首頁 <span>INDEX</span></a></li>
+    <li><a href="../HTML/NEWS.html">最新消息 <span>NEWS</span></a></li>
+    <li><a href="../HTML/PRODUCT.html">主要商品 <span>PRODUCT</span></a>
+      <ul class="submenu">
+        <li class="subli">
+          <div class="submi">
+          <a href="../HTML/PRODUCT.html">
+            <img src="../images/icon/nav/Gundam2.png" alt="">
+            <p>鋼彈模型</p>
+            </a>
+          <a href="../HTML/PRODUCT.html">
+            <img src="../images/icon/nav/KITIBUKYA.png" alt="">
+            <p>壽屋模型</p>
+              </a>
+          <a href="../HTML/PRODUCT.html">
+            <img src="../images/icon/nav/BANDAI.png" alt="">
+            <p>萬代組裝模型</p>
+              </a>
+          <a href="../HTML/PRODUCT.html">
+            <img src="../images/icon/nav/HOT.png" alt="">
+            <p>熱門作品相關</p>
+              </a>
+          <a href="../HTML/PRODUCT.html">
+            <img src="../images/icon/nav/EGG2.png" alt="">
+            <p>日系景品/盒玩/扭蛋</p>
+              </a>
+          <a href="../HTML/PRODUCT.html">
+            <img src="../images/icon/nav/TAMASHII2.png" alt="">
+            <p>TAMASHII 魂限</p>
+              </a>
+          <a href="../HTML/PRODUCT.html">
+            <img src="../images/icon/nav/TAMIYA.png" alt="">
+            <p>TAMIYA 田宮模型</p>
+              </a>
+          <a href="../HTML/PRODUCT.html">
+            <img src="../images/icon/nav/BBOX2.png" alt="">
+            <p>Blind Box 盲盒相關</p>
+              </a>
+              </div>
+          </li>
+      </ul>
+    </li>
+    <li><a href="../HTML/ABOUT ME.html">關於我<span>ABOUT</span></a></li>
+    <li><a href="../HTML/FAQ.html">常見問題 <span>FAQ</span></a></li>
+  </ul>
+</nav>
+  <!-- ----------------------------------商品------------------------------------>
+  <section>
+    <div class="s0">
+      <p>///一番好きだ///</p> <span class="typing"> Please buy it and bring it home. </span>
+    </div>
+    <div class="s1">
+      <div class="demopic">
+        <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff" class="swiper mySwiper2">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <a href="../images/product/FREEDOM/F0.jpg" class="lightbox">
+                <img src="../images/product/FREEDOM/F0.jpg" />
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="../images/product/FREEDOM/F2.jpg" class="lightbox">
+                <img src="../images/product/FREEDOM/F2.jpg" />
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="../images/product/FREEDOM/F3.jpeg" class="lightbox">
+                <img src="../images/product/FREEDOM/F3.jpeg" />
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="../images/product/FREEDOM/F6.jpg" class="lightbox">
+                <img src="../images/product/FREEDOM/F6.jpg" />
+              </a>
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+        <div thumbsSlider="" class="swiper mySwiper" id="#S2">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="../images/product/FREEDOM/F0.jpg" />
+            </div>
+            <div class="swiper-slide">
+              <img src="../images/product/FREEDOM/F2.jpg" />
+            </div>
+            <div class="swiper-slide">
+              <img src="../images/product/FREEDOM/F3.jpeg" />
+            </div>
+            <div class="swiper-slide">
+              <img src="../images/product/FREEDOM/F6.jpg" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="lightbox-overlay">
+        <div class="lightbox-content">
+            <img src="" alt="" class="lightbox-image">
+            <span class="lightbox-close">&times;</span>
+        </div>
+    </div>
+
+      <div class="option">
+        <div class="stamp">NEW</div>
+        <h2> BANDAI MGSD SEED 自由鋼彈 FREEDOM ZGMF-X10A </h2>
+        <h3>[ 現貨供應中 ]</h3>
+
+        <h4>¥4,290</h4>
+
+        <p class="choise">數 量</p>
+
+        <div class="btn0">
+          <button id="minus">-</button>
+          <span id="quantity">0</span>
+          <button id="plus">+</button>
+        </div>
+
+        <div class="btn">
+          <button>加入購物車</button>
+          <button>手刀購買</button>
+        </div>
+
+
+        <div class="box">
+          <p>
+            //. MGSD フリーダムガンダム <br>
+            //. 預計到貨日期：2023/01/21 <br>
+            //. 商品規格：無比例組裝模型 <br>
+            //. 原廠保固：無 <br>
+            //. 宅配運費：$120 <br>
+            //. 超商運費：$60
+          </p>
+        </div>
+
+
+      </div>
+
+    </div>
+  </section>
+
+  <section>
+    <div class="sssss">
+      <div class="container-f">
+        <div class="tabs">
+          <div class="tablinks" onclick="openPage(event,'page1')" id="defaultOpen">商品介紹</div>
+          <div class="tablinks" onclick="openPage(event,'page2')">配送問題</div>
+          <div class="tablinks" onclick="openPage(event,'page3')">運費問題</div>
+        </div>
+
+        <div class="page" id="page1">
+          <img src="../images/product/FREEDOM/F0.jpg" alt="">
+          <img src="../images/product/FREEDOM/F2.jpg" alt="">
+          <img src="../images/product/FREEDOM/F3.jpeg" alt="">
+          <img src="../images/product/FREEDOM/F5.jpeg" alt="">
+          <img src="../images/product/FREEDOM/F6.jpg" alt="">
+          <img src="../images/product/FREEDOM/F7.jpg" alt="">
+          <img src="../images/product/FREEDOM/F8.jpg" alt="">
+          <img src="../images/product/FREEDOM/F2.jpg" alt="">
+
+          <div class="article">
+            <p>
+              商品皆為正版商品，請安心選購 <br>
+              《預定發售月份為廠商提供參考，任何預購商品有延期可能，如無法接受請勿下標!!!》 <br>
+              1.商品為大量生產製造，些許塗裝、色差、掉漆、二次膠~~廠商不會受理 <br>
+              2.如缺件,斷裂,嚴重瑕疵會幫您換新品 <br>
+              3.出貨會盡量以填充充氣袋或紙片做好避震防撞保護~~ <br>
+              4.但運送途中可能遇不可測撞擊!!如對盒裝要求嚴謹請現場選購,無法做退換 <br>
+              5.下標代表同意上述條件購買,無法接受任何理由取消!!! <br>
+              6.如執意取消將黑名單+負評. 請審慎考慮 <br>
+            </p>
+          </div>
+        </div>
+
+        <div class="page" id="page2">
+          <picture>
+            <source media="(max-width:414px )" srcset="../images/fee2.png">
+            <img src="../images/fee.png" alt="">
+          </picture>
+          
+        </div>
+
+        <div class="page" id="page3">
+          <picture>
+            <source media="(max-width:414px )" srcset="../images/funny2.png">
+            <img src="../images/funny.png" alt="">
+        </div>
+          </picture>
+      </div>
+    </div>
+
+
+
+    <div class="secbtn" onclick="goBack()">
+      <ul>
+        <li><a type="button" id="btn" href="../HTML/PRODUCT.html">
+            <h1>返回前頁</h1>
+          </a></li>
+      </ul>
+    </div>
+
+
+  </section>
+  <!-- footer
+    
+    -->
+    <footer>
+
+      <div>
+        <div class="final">
+          <div class="f1">
+            <img src="../images/LOGO/logo白.png" alt="玩具模人">
+            <ul class="footlist2">
+              <li><a href="#"><img src="../images/footer/IG.png" alt=""></a></li>
+              <li><a href="#"><img src="../images/footer/FB.png" alt=""></a></li>
+              <li><a href="#"><img src="../images/footer/YT.png" alt=""></a></li>
+            </ul>
+          
+          </div>
+          <div class="f3">
+            <h6>Copyright © 本網站為緯育TibaMe前端工程師班學員專題作品，本平台僅供學習、展示之用。</h6>
+          </div>
+          <div class="f2">
+            <ul class="footlist">
+              <li><a href="#"><img src="../images/footer/IG.png" alt=""></a></li>
+              <li><a href="#"><img src="../images/footer/FB.png" alt=""></a></li>
+              <li><a href="#"><img src="../images/footer/YT.png" alt=""></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+  
+  
+  
+    </footer>
+
+
+
+  <!-------------------------------------FOOTER--------------------------------->
+
+
+  
+  <!-- <script src="../JS/page.js"></script> -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script>
+// JavaScript
+window.addEventListener('scroll', function() {
+  // 捲動超過 500px 顯示按鈕，否則隱藏
+  var scrollToTopBtn = document.getElementById('scrollToTopBtn');
+  if (window.scrollY > 300 && window.scrollY < (document.documentElement.scrollHeight - window.innerHeight - 50)) { // 加入條件檢查滾動位置是否接近頁尾
+    scrollToTopBtn.style.display = 'block';
+  } else {
+    scrollToTopBtn.style.display = 'none';
+  }
+});
+
+// 點擊按鈕後捲動到頂部
+document.getElementById('scrollToTopBtn').addEventListener('click', function() {
+  window.scrollTo({
+    top: 0,
+    behavior: 'smooth' // 平滑捲動效果
+  });
+});
+// ===================================================
+    window.addEventListener("scroll", function () {
+      var header = document.querySelector("header");
+
+      // 如果網頁滾動的距離超過 Header 的高度
+      if (window.pageYOffset > header.offsetHeight) {
+        // 讓 Header 向上移動
+        header.style.top = "-" + header.offsetHeight + "px";
+      } else {
+        // 讓 Header 回到原位
+        header.style.top = "0";
+      }
+    });
+    // -----------------------------------------------------------------
+    var swiper = new Swiper(".mySwiper", {
+      loop: true,
+      spaceBetween: 10,
+      slidesPerView: 4,
+      freeMode: true,
+      watchSlidesProgress: true,
+    });
+    var swiper2 = new Swiper(".mySwiper2", {
+      loop: true,
+      spaceBetween: 10,
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      thumbs: {
+        swiper: swiper,
+      },
+    });
+    // ------------------------------------------------------------------------
+    const minusButton = document.getElementById("minus");
+    const plusButton = document.getElementById("plus");
+    const quantitySpan = document.getElementById("quantity");
+
+
+    let quantity = 0;
+
+
+    minusButton.addEventListener("click", function () {
+      if (quantity > 0) {
+        quantity--;
+        quantitySpan.textContent = quantity;
+      }
+    });
+
+
+    plusButton.addEventListener("click", function () {
+      quantity++;
+      quantitySpan.textContent = quantity;
+    });
+    // ---------------------------------------------------------------------
+    document.getElementById("defaultOpen").click();
+
+    // 頁籤點擊事件
+    function openPage(evt, pageName) {
+      // 宣告變數
+      var i, page, tablinks;
+
+      // 取得所有 class 為 page 的元素，並隱藏它們
+      page = document.getElementsByClassName("page");
+      for (i = 0; i < page.length; i++) {
+        page[i].style.display = "none";
+      }
+
+      // 取得所有 class 為 tablinks 的元素，並移除它們的 active 狀態
+      tablinks = document.getElementsByClassName("tablinks");
+      for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+      }
+
+      // 顯示當前頁籤的內容，並將該頁籤的按鈕設定為 active 狀態
+      document.getElementById(pageName).style.display = "block";
+      evt.currentTarget.className += " active";
+    }
+
+    document.addEventListener("DOMContentLoaded", function () {
+      document.querySelector(".tablinks").click();
+    });
+
+// -----------------------------------------------------------------
+$(document).ready(function() {
+  $('.rwd-item').hide();
+  $('.r-item2').hide(); // 隱藏 .r-item2
+  $('.fafa').click(function() {
+    $('.rwd-item').slideToggle(500);
+  });
+  
+  $('#right, .r-header').click(function() {
+    $('.r-item2').toggle(500)({width:'toggle'},500);
+  });
+
+
+  $('.r-item2 a').css({
+  'margin': 0,
+});
+
+$('body').css('overflow', 'auto');
+$('.r-item2 a').css('margin', 'initial');
+
+});
+
+$(function(){
+  let is_open = 0;
+  // 一開始讓選單縮上去
+  $(".sear").slideUp();
+  // 點擊menu後slidedown
+  $('.sear2').click(function(){
+  $(".sear").slideToggle(500);
+    })
+})
+
+
+$('.toggle').click(function(){
+$(this).toggleClass('active');
+});
+    
+// -------------------------
+$(window).on("load",function(){
+  $('.lightbox').click(function(e){
+      //防止點擊時跳轉到 href 指定的 URL
+      e.preventDefault();
+      // 取得被點擊的圖片 URL
+      let img_url = $(this).attr("href");
+      // console.log(img_url);
+      $('.lightbox-image').attr("src",img_url);
+      $('.lightbox-overlay').fadeIn(500)
+  })
+
+  //點X關閉
+  $('.lightbox-close').click(function(){
+      $('.lightbox-overlay').fadeOut(500)
+  })
+})
+
+  </script>
+
+</body>
+
+</html>
