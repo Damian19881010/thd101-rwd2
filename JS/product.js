@@ -90,6 +90,27 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 
+// ----------------------------------------
+const tabs = document.getElementById('tabs');
+const nav = document.getElementById('nav');
+
+
+window.addEventListener('scroll', function() {
+
+  const navRect = nav.getBoundingClientRect();
+
+ 
+  if (navRect.top <= 0) {
+    tabs.classList.add('sticky');
+  } else {
+   
+    tabs.classList.remove('sticky');
+  }
+});
+
+
+
+
 
 
 
