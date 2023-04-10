@@ -160,23 +160,22 @@ justify-content: space-between;
     margin-top: 7px;
 }
 .toggle.active span {
- transition: 0.25s margin, 0.25s transform 0.25s;
+transition: 0.25s margin, 0.25s transform 0.25s;
 }
-  .toggle.active span:nth-child(1) {
-    /* margin-top: 3px; */
-    margin-bottom: -3px;
+.toggle.active span:nth-child(1) {
+/* margin-top: 3px; */
+margin-bottom: -3px;
+transform: rotate(45deg);
+background-color: #6070ff;
+}
+.toggle.active span:nth-child(2) {
     transform: rotate(45deg);
-    background-color: #6070ff;
-  }
-  .toggle.active span:nth-child(2) {
-    transform: rotate(45deg);
+}
+.toggle.active span:nth-child(3) {
+margin-top: -3px;
+transform: rotate(135deg);
+}
 
-  }
-  .toggle.active span:nth-child(3) {
-    margin-top: -3px;
-    transform: rotate(135deg);
-  }
-  
 /*  */
 
 .rwd ul li a{
@@ -267,7 +266,7 @@ position: absolute;
 top: 0;
 right: 0%;
 /* transition: all .3s ease-in; */
-background-color: #6597ad00;
+background-color: #ffffff;
 box-sizing: border-box;
 display: flex;
 flex-wrap: wrap;
@@ -634,6 +633,11 @@ height: 400px;
     border-right: 5px solid #1e2a2f00;
     /* background-color: #60ff9d; */
 }
+
+.m1 li:hover {
+    background-color: #ffffff;
+    transition: all .3s ease-in-out;
+}
 /* ---------film-------------------- */
 .main3{
     max-width: 414px;
@@ -790,31 +794,31 @@ margin: 0 auto 20px;
 }
 
 .caption h4 {
-    font-family: 'Inter', sans-serif;
-    text-align: center;
-    font-weight: bold;
-    line-height: 1.6;
-    padding: 0 5px;
-    box-sizing: border-box;
-    display: block;
-  }
-  
-  .caption .name {
-    text-decoration: none;
-    color: #1E2A2F;
-    font-size: 1rem;
-    display: block;
-  }
+font-family: 'Inter', sans-serif;
+text-align: center;
+font-weight: bold;
+line-height: 1.6;
+padding: 0 5px;
+box-sizing: border-box;
+display: block;
+}
 
-  .caption .cap-btn .button {
-    color: #1E2A2F;
-    background-color: #fff;
-    border: 3px solid #1E2A2F;
-    padding: 10px 20px;
-    font-size: 18px;
-    font-weight: bolder;
-    transition: all .3s ease-in-out;
-  }
+.caption .name {
+text-decoration: none;
+color: #1E2A2F;
+font-size: 1rem;
+display: block;
+}
+
+.caption .cap-btn .button {
+color: #1E2A2F;
+background-color: #fff;
+border: 3px solid #1E2A2F;
+padding: 10px 20px;
+font-size: 18px;
+font-weight: bolder;
+transition: all .3s ease-in-out;
+}
 
 
 .secbtn {

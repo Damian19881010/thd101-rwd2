@@ -192,12 +192,6 @@
     }
     
     nav #web{
-        /* position: absolute;
-        width: 100%;
-        top: 50px;
-        left: 0;
-        background-color: #ffffffe8;
-        flex-direction: column; */
         display: none;
     }
     
@@ -262,7 +256,7 @@
     top: 0;
     right: 0%;
     /* transition: all .3s ease-in; */
-    background-color: #6597ad00;
+    background-color: #ffffff;
     box-sizing: border-box;
     display: flex;
     flex-wrap: wrap;

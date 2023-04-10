@@ -536,65 +536,61 @@ section .s1 {
 }
 
 .option .btn0 {
-    margin-left: 50px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    font-family: 'Inter', sans-serif;
-    /* border: 1px solid #1E2A2F; */
-    color: #1E2A2F;
-    width: 245px;
-    height: 50px;
-    background-color: #ffffff00;
-    display: flex;
-    border: 3px solid #1E2A2F;
-    border-radius: 2PX;
+  margin-left: 50px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: 'Inter', sans-serif;
+  color: #1E2A2F;
+  width: 245px;
+  height: 50px;
+  background-color: #ffffff00;
+  display: flex;
+  border: 3px solid #1E2A2F;
+  border-radius: 2PX;
 }
 
 .btn0 button {
-    width: 30%;
-    height: 100%;
-    border: 1px solid #1E2A2F;
-    border-radius: none;
-    font-size: 1.875rem;
+  width: 30%;
+  height: 100%;
+  border: 1px solid #1E2A2F;
+  border-radius: none;
+  font-size: 1.875rem;
 }
 
 .btn0 button:nth-child(1) {
-    border-right: 3.5px solid #1E2A2F;
+  border-right: 3.5px solid #1E2A2F;
 }
 
 .btn0 button:nth-child(3) {
-    border-left: 3.5px solid #1E2A2F;
+  border-left: 3.5px solid #1E2A2F;
 }
 
-
 .btn0 span {
-    display: block;
-    width: 100px;
-    text-align: center;
-    margin: auto;
-    font-size: 1.875rem;
+  display: block;
+  width: 100px;
+  text-align: center;
+  margin: auto;
+  font-size: 1.875rem;
 }
 
 .box {
-    width: 80%;
-    height: 27.8%;
-    margin: 0 auto;
-    background-color: #788991;
-    border: 5px solid #1E2A2F;
+  width: 80%;
+  height: 27.8%;
+  margin: 0 auto;
+  background-color: #788991;
+  border: 5px solid #1E2A2F;
 }
 
 .box p {
-    font-family: 'Inter', sans-serif;
-    font-size: 1.5625rem;
-    color: #ffffff;
-    display: block;
-    margin: 0 auto;
-    padding: 15px 30px;
-    box-sizing: border-box;
-    line-height: 1.25;
+  font-family: 'Inter', sans-serif;
+  font-size: 1.5625rem;
+  color: #ffffff;
+  display: block;
+  margin: 0 auto;
+  padding: 15px 30px;
+  box-sizing: border-box;
+  line-height: 1.25;
 }
-
-
 /* -------------------------SSSSSS-------------------- */
 .sssss {
     width: 1200px;
